@@ -1,0 +1,12 @@
+.Header {
+    background-color: red;
+
+    .container {
+        display: flex;
+    }
+
+    &-menu {
+        margin-left: auto;
+        display: flex;
+    }
+}
