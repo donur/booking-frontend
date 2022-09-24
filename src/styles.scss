@@ -14,7 +14,6 @@ $gutter: 20px;
 /* Global */
 .container {
     max-width: $max-width;
-    background-color: aqua;
-    margin-left: auto;
+    margin-left: auto; // margin: 0 auto şeklinde kullansaydık, top ve bottom'a ekstradan değer atamış olacaktık. Bu şekilde kullanım performans açısından daha iyi.
     margin-right: auto;
 }
