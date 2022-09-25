@@ -1,3 +1,5 @@
+@import '../scss/config/variable.scss';
+
 .Header {
     border-bottom: 1px solid;
 
@@ -11,5 +13,22 @@
     &-menu {
         margin-left: auto;
         display: flex;
+    }
+
+    &-logo {
+        img {
+            width: 144px;
+        }
+    }
+
+    &-user {
+        a {
+            padding-left: 20px;
+            padding-right: 20px;
+            // height: $finger-size;
+
+        }
+        
+
     }
 }

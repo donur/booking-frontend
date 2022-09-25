@@ -1,0 +1,11 @@
+@import '../config/variable.scss';
+
+.container {
+    max-width: $max-width;
+    margin-left: auto; // margin: 0 auto şeklinde kullansaydık, top ve bottom'a ekstradan değer atamış olacaktık. Bu şekilde kullanım performans açısından daha iyi.
+    margin-right: auto;
+}
+
+a {
+    color: $color-navy;
+}
